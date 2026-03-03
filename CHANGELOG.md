@@ -1,5 +1,38 @@
 # Changelog
 
+## 5.19.0-beta.1 (2026-03-03)
+
+Full Changelog: [v5.18.0...v5.19.0-beta.1](https://github.com/cloudflare/terraform-provider-cloudflare/compare/v5.18.0...v5.19.0-beta.1)
+
+### Features
+
+* **resources:** enable state upgrade ([a9a069b](https://github.com/cloudflare/terraform-provider-cloudflare/commit/a9a069bbebfbaa935a79cb54a013146907655f51))
+* **resources:** schema version bump ([7ba7600](https://github.com/cloudflare/terraform-provider-cloudflare/commit/7ba7600a34e74cf44436afb7bdbee7bc42e51051))
+
+
+### Bug Fixes
+
+* **api_token:** simulate stepping stones in test ([54e9a62](https://github.com/cloudflare/terraform-provider-cloudflare/commit/54e9a622ff62439f8832001efd4ad56c4b8c2c04))
+* **ci:** run migration tests after acceptance ([ecec860](https://github.com/cloudflare/terraform-provider-cloudflare/commit/ecec86063335437380877c01e661c113102c4ee4))
+* **client_certificate:** fix csr drift with normalization ([a755419](https://github.com/cloudflare/terraform-provider-cloudflare/commit/a755419efaa6e32983e43c52078ed30da48802b7))
+* **custom_origin_trust_store:** fix certificate drift with normalization ([42de890](https://github.com/cloudflare/terraform-provider-cloudflare/commit/42de890912b6293345902462e09e378dc561e742))
+* **tests:** enable migration tests again ([1386a4a](https://github.com/cloudflare/terraform-provider-cloudflare/commit/1386a4ad6c33584983fe199d5b3ece372025342b))
+* **tests:** have it in 2 jobs ([1386a4a](https://github.com/cloudflare/terraform-provider-cloudflare/commit/1386a4ad6c33584983fe199d5b3ece372025342b))
+* **tests:** update migration model ([27eaf5a](https://github.com/cloudflare/terraform-provider-cloudflare/commit/27eaf5a04de91608f7b10ad773bc6b5413d3cce8))
+* **zone_dnssec:** allowed computed fields which will change ([8c2c664](https://github.com/cloudflare/terraform-provider-cloudflare/commit/8c2c664959eef009e6eaeebd4d9115b58a4489ca))
+
+
+### Chores
+
+* **resources:** clean up comments ([c4a39f8](https://github.com/cloudflare/terraform-provider-cloudflare/commit/c4a39f8f7b1d3dfe22e66d893fcc3ffb6b7b90e1))
+* **resources:** don't modify phase 2 ([fdbeb43](https://github.com/cloudflare/terraform-provider-cloudflare/commit/fdbeb431bcd690972c2f0b56abc228d6a2453001))
+* **resources:** skip phase 2 tests ([27eaf5a](https://github.com/cloudflare/terraform-provider-cloudflare/commit/27eaf5a04de91608f7b10ad773bc6b5413d3cce8))
+
+
+### Refactors
+
+* **ci:** use published tf-migrate ([5e37364](https://github.com/cloudflare/terraform-provider-cloudflare/commit/5e3736400a0a3f437780a880495c8985f9e217fa))
+
 ## 5.18.0 (2026-03-01)
 
 Full Changelog: [v5.17.0...v5.18.0](https://github.com/cloudflare/terraform-provider-cloudflare/compare/v5.17.0...v5.18.0)
